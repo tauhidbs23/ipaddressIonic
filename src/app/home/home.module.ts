@@ -4,6 +4,7 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
+import { NetworkInterface } from '@ionic-native/network-interface/ngx';
 import { HomePage } from './home.page';
 
 @NgModule({
@@ -18,6 +19,7 @@ import { HomePage } from './home.page';
       }
     ])
   ],
-  declarations: [HomePage]
+  declarations: [HomePage],
+  providers: [NetworkInterface]
 })
-export class HomePageModule {}
+export class HomePageModule { }
