@@ -1,0 +1,8 @@
+{
+  "name": "iptrack",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
